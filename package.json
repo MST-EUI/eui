@@ -1,0 +1,23 @@
+{
+  "name": "@mistong/eui",
+  "version": "0.1.0",
+  "description": "React Components Implementation for EWT UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MST-EUI/eui.git"
+  },
+  "keywords": [
+    "react",
+    "component"
+  ],
+  "author": "mst-eui team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MST-EUI/eui/issues"
+  },
+  "homepage": "https://github.com/MST-EUI/eui#readme"
+}
