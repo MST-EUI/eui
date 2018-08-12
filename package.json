@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/MST-EUI/eui/issues"
   },
-  "homepage": "https://github.com/MST-EUI/eui#readme"
+  "homepage": "https://github.com/MST-EUI/eui#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
