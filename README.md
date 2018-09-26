@@ -10,6 +10,8 @@ $ npm i @mistong/eui
 
 ```
 import eui from '@mistong/eui';
+import 'node_modules/@mistong/eui/dist/index.css';
+
 const {
   Icon
 } = eui;
