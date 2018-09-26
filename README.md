@@ -1,6 +1,17 @@
 # eui 组件模板
 
+## Install
+
+```
+$ npm i @mistong/eui
+```
+
 ## Usage
 
-[使用文档](https://github.com/MST-EUI/eui-developing-guideline)
+```
+import eui from '@mistong/eui';
+const {
+  Icon
+} = eui;
+```
 
