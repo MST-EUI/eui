@@ -1,37 +1,15 @@
-<a name="0.1.10"></a>
-## [0.1.10](https://github.com/MST-EUI/EUI-component-tpl/compare/v0.1.8...v0.1.10) (2018-09-21)
-
-
-
-<a name="0.1.8"></a>
-## [0.1.8](https://github.com/MST-EUI/EUI-component-tpl/compare/v0.1.7...v0.1.8) (2018-09-21)
-
-
-
-<a name="0.1.7"></a>
-## [0.1.7](https://github.com/MST-EUI/EUI-component-tpl/compare/v0.1.5...v0.1.7) (2018-09-19)
-
-
-### Bug Fixes
-
-* fixed [@mistong](https://github.com/mistong)/eui absent issue ([0179483](https://github.com/MST-EUI/EUI-component-tpl/commit/0179483))
-* fixed unit test issue(depndencies missing) for jest ([0027b47](https://github.com/MST-EUI/EUI-component-tpl/commit/0027b47))
-
-
-
-<a name="0.1.5"></a>
-## [0.1.5](https://github.com/MST-EUI/EUI-component-tpl/compare/v1.0.4...v0.1.5) (2018-08-27)
-
-
-### Bug Fixes
-
-* **workflow:** use prepublishOnly replace prepare ([9030662](https://github.com/MST-EUI/EUI-component-tpl/commit/9030662))
-* **workflow:** use prepublishOnly replace prepare ([50972bd](https://github.com/MST-EUI/EUI-component-tpl/commit/50972bd))
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/MST-EUI/eui/compare/v0.1.0...v0.1.1) (2018-09-26)
 
 
 ### Features
 
-* **workflow:** add workflow tools ([677df5b](https://github.com/MST-EUI/EUI-component-tpl/commit/677df5b))
+* add webpack.config.js for build dist ([163ee66](https://github.com/MST-EUI/eui/commit/163ee66))
+* **build:** update build command and config ([d410aea](https://github.com/MST-EUI/eui/commit/d410aea))
+* **build:** update build command and config ([d52238f](https://github.com/MST-EUI/eui/commit/d52238f))
+* **package.json:** init cz-conventional-changelog adapter ([e43444a](https://github.com/MST-EUI/eui/commit/e43444a))
+* eui css is ready ([134ad29](https://github.com/MST-EUI/eui/commit/134ad29))
+* init package.json ([aa764ab](https://github.com/MST-EUI/eui/commit/aa764ab))
 
 
 
