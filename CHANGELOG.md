@@ -1,3 +1,13 @@
+<a name="0.1.3"></a>
+## [0.1.3](https://github.com/MST-EUI/eui/compare/v0.1.2...v0.1.3) (2018-09-28)
+
+
+### Features
+
+* add lib to npm ([339fc31](https://github.com/MST-EUI/eui/commit/339fc31))
+
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/MST-EUI/eui/compare/v0.1.1...v0.1.2) (2018-09-28)
 
