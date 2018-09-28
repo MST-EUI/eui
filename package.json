@@ -7,7 +7,7 @@
     "buildcss": "node src/css.generate.js",
     "start": "npm run buildcss && eui server",
     "dev": "npm run buildcss && eui server",
-    "build": "npm run buildcss && eui build",
+    "build": "npm run buildcss && eui build && node src/lib.copy.js",
     "test": "eui test",
     "commit": "git-cz",
     "coverage": "eui test --coverage",

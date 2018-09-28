@@ -1,9 +1,11 @@
+const { copyDir } = require('./utils');
+
 const fs = require('fs');
 const path = require('path');
 const mkdirp = require('mkdirp');
 const rimraf = require('rimraf');
 const chalk = require('chalk');
-const utils = require('./utils');
+
 const components = require('./components');
 
 const {
@@ -13,38 +15,32 @@ const {
 const exists = (...p) => fs.existsSync(path.resolve(__dirname, ...p));
 const relPath = (...p) => path.resolve(__dirname, ...p);
 const NODE_MODULES_PREFIX = '../node_modules/@mistong/';
-const CSS_PREFIX = '../css';
+const CSS_PREFIX = '../lib';
 const CSS_DIR = relPath(CSS_PREFIX);
 
 rimraf.sync(CSS_DIR);
-log('directory css is removed');
+log('directory lib is removed');
 mkdirp.sync(CSS_DIR);
-log('directory css is created');
+log('directory lib is created');
 
 if (exists(NODE_MODULES_PREFIX)) {
   try {
-    let indexScssStr = '@import \'../node_modules/@mistong/eui-css/src/theme/blue.whale.build.scss\';\r\n';
-    // copy eui-* component src/style to css/eui-* directory
     components.forEach((item) => {
-      const targetDir = relPath(NODE_MODULES_PREFIX, `${item}/src/style`);
+      const targetDir = relPath(NODE_MODULES_PREFIX, `${item}`);
       if (exists(targetDir)) {
         const isKeepSrcRootDir = false;
-        const currentDisDirName = `style-${item}`;
-        utils.copyDir(
-          relPath(NODE_MODULES_PREFIX, `${item}/src/style`),
+        const currentDisDirName = String(item).replace('eui-', '');
+        copyDir(
+          relPath(NODE_MODULES_PREFIX, `${item}/dist`),
           relPath(CSS_PREFIX, currentDisDirName),
           isKeepSrcRootDir,
         );
-        log(chalk.blue(`${item} src/style is copied`));
-        indexScssStr += `@import '../css/${currentDisDirName}/index.scss';\r\n`;
+        log(chalk.blue(`${item} dist is copied`));
       } else {
-        log(chalk.red(`${item} has no directory src/style`));
+        log(chalk.red(`${item} has no directory dist`));
       }
     });
     log(chalk.green('files copy success'));
-    // generate src/index.scss
-    fs.writeFileSync(relPath('./index.scss'), indexScssStr);
-    log(chalk.green('index.scss write success'));
   } catch (e) {
     error(e);
   }

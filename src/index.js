@@ -1,9 +1,9 @@
-import EmptyData from '@mistong/eui-empty-data';
-import Icon from '@mistong/eui-icon';
+import EmptyData from '../lib/empty-data';
+import Icon from '../lib/icon';
 
 import './index.scss';
 
-export default {
+module.exports = {
   EmptyData,
   Icon,
 };
