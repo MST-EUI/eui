@@ -20,10 +20,13 @@ class Demo extends React.Component {
     return (
       <div className="demo eui-demo">
         <Icon type="success" />
+        <hr /><br /><br />
         <EmptyData />
+        <hr /><br /><br />
         <Code sourceCode={codeSourceCode}>
           <Icon type="close" />
         </Code>
+        <hr /><br /><br />
       </div>
     );
   }
