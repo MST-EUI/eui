@@ -28,4 +28,5 @@ dist
 build
 assets/**/*.css
 coverage/
-css/
+css
+lib
