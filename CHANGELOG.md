@@ -1,3 +1,18 @@
+<a name="0.1.6"></a>
+## [0.1.6](https://github.com/MST-EUI/eui/compare/v0.1.5...v0.1.6) (2018-10-08)
+
+
+### Bug Fixes
+
+* add eui-code to eui package ([ee7ba7c](https://github.com/MST-EUI/eui/commit/ee7ba7c))
+
+
+### Features
+
+* add eui-code ([8a2f013](https://github.com/MST-EUI/eui/commit/8a2f013))
+
+
+
 <a name="0.1.5"></a>
 ## [0.1.5](https://github.com/MST-EUI/eui/compare/v0.1.4...v0.1.5) (2018-10-08)
 
