@@ -80,7 +80,7 @@
     "@mistong/eui-css": "latest",
     "@mistong/eui-empty-data": "^0.1.5",
     "@mistong/eui-icon": "^0.1.5",
-    "classnames": "^2.2.6",
+    "classnames": "^2.2.6"
   },
   "config": {
     "commitizen": {
