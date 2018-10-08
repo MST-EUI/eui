@@ -76,7 +76,7 @@
     "react-addons-test-utils": "^0.14.0"
   },
   "dependencies": {
-    "@mistong/eui-code": "^0.1.1",
+    "@mistong/eui-code": "^0.1.2",
     "@mistong/eui-css": "latest",
     "@mistong/eui-empty-data": "^0.1.5",
     "@mistong/eui-icon": "^0.1.5",
