@@ -72,14 +72,15 @@
     "node-sass": "^4.8.3",
     "react": "^0.14.9",
     "react-dom": "^0.14.9",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "react-addons-test-utils": "^0.14.0"
   },
   "dependencies": {
+    "@mistong/eui-code": "^0.1.1",
     "@mistong/eui-css": "latest",
-    "@mistong/eui-empty-data": "^0.1.3",
+    "@mistong/eui-empty-data": "^0.1.5",
     "@mistong/eui-icon": "^0.1.5",
     "classnames": "^2.2.6",
-    "react-addons-test-utils": "^0.14.0"
   },
   "config": {
     "commitizen": {
