@@ -1,3 +1,13 @@
+<a name="0.1.8"></a>
+## [0.1.8](https://github.com/MST-EUI/eui/compare/v0.1.7...v0.1.8) (2018-10-09)
+
+
+### Features
+
+* eui-icon/eui-empty-data version update ([93a00c9](https://github.com/MST-EUI/eui/commit/93a00c9))
+
+
+
 <a name="0.1.7"></a>
 ## [0.1.7](https://github.com/MST-EUI/eui/compare/v0.1.6...v0.1.7) (2018-10-08)
 
