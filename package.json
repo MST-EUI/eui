@@ -78,7 +78,7 @@
   "dependencies": {
     "@mistong/eui-code": "^0.1.2",
     "@mistong/eui-css": "latest",
-    "@mistong/eui-empty-data": "^0.1.6",
+    "@mistong/eui-empty-data": "^0.1.7",
     "@mistong/eui-icon": "^0.1.7",
     "classnames": "^2.2.6"
   },
