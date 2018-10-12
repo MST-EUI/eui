@@ -1,3 +1,13 @@
+<a name="0.1.13"></a>
+## [0.1.13](https://github.com/MST-EUI/eui/compare/v0.1.12...v0.1.13) (2018-10-12)
+
+
+### Features
+
+* eui-code version update & add demo in pkg ([d2ac2a6](https://github.com/MST-EUI/eui/commit/d2ac2a6))
+
+
+
 <a name="0.1.12"></a>
 ## [0.1.12](https://github.com/MST-EUI/eui/compare/v0.1.11...v0.1.12) (2018-10-12)
 
