@@ -8,31 +8,38 @@ const {
   Icon,
   EmptyData,
   Code,
+  Demo,
 } = eui;
 
-class Demo extends React.Component {
+class DemoComponent extends React.Component {
   render() {
-    const codeSourceCode = `
-      import { Icon } from '@mistong/eui';
-      ...
-      <Icon type="close" />
-    `;
+    const iconSourceCode = `import { Icon } from '@mistong/eui';
+
+<Icon type="info" style={{ color: '#f60', fontSize: '30px' }} />
+`;
+    const emptyDataSourceCode = `import { EmptyData } from '@mistong/eui';
+
+<EmptyData />
+`;
     return (
-      <div className="demo eui-demo">
-        <Icon type="success" />
-        <hr /><br /><br />
-        <EmptyData />
-        <hr /><br /><br />
-        <Code sourceCode={codeSourceCode}>
-          <Icon type="close" />
+      <Demo>
+        <h2>eui 整包</h2>
+        <p>该包整合了所有组件，可按需加载引用。</p>
+        <h3>代码演示</h3>
+        <Code sourceCode={iconSourceCode}>
+          <Icon type="info" style={{ color: '#f60', fontSize: '30px' }} />
         </Code>
-        <hr /><br /><br />
-      </div>
+        <Code sourceCode={emptyDataSourceCode}>
+          <EmptyData style={{ width: '200px' }} />
+        </Code>
+        <h3>API</h3>
+        <p>无</p>
+      </Demo>
     );
   }
 }
 
 ReactDOM.render(
-  <Demo />,
+  <DemoComponent />,
   document.getElementById('app'),
 );
