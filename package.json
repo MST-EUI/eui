@@ -81,7 +81,7 @@
     "@mistong/eui-css": "latest",
     "@mistong/eui-demo": "^0.1.1",
     "@mistong/eui-empty-data": "^0.1.8",
-    "@mistong/eui-icon": "^0.1.7",
+    "@mistong/eui-icon": "^0.1.8",
     "classnames": "^2.2.6"
   },
   "config": {
