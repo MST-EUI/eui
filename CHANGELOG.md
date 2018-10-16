@@ -1,3 +1,13 @@
+<a name="0.1.18"></a>
+## [0.1.18](https://github.com/MST-EUI/eui/compare/v0.1.17...v0.1.18) (2018-10-16)
+
+
+### Features
+
+* add eui-dialog ([33155e1](https://github.com/MST-EUI/eui/commit/33155e1))
+
+
+
 <a name="0.1.17"></a>
 ## [0.1.17](https://github.com/MST-EUI/eui/compare/v0.1.16...v0.1.17) (2018-10-16)
 
