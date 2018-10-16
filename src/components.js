@@ -3,4 +3,5 @@ module.exports = [
   'eui-empty-data',
   'eui-code',
   'eui-demo',
+  'eui-button',
 ];
