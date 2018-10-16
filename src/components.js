@@ -4,4 +4,5 @@ module.exports = [
   'eui-code',
   'eui-demo',
   'eui-button',
+  'eui-dialog',
 ];
