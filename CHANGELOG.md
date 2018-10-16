@@ -1,3 +1,18 @@
+<a name="0.1.16"></a>
+## [0.1.16](https://github.com/MST-EUI/eui/compare/v0.1.15...v0.1.16) (2018-10-16)
+
+
+### Bug Fixes
+
+* eui-button version update to fixed style issue ([e810599](https://github.com/MST-EUI/eui/commit/e810599))
+
+
+### Features
+
+* add eui-button ([43f2727](https://github.com/MST-EUI/eui/commit/43f2727))
+
+
+
 <a name="0.1.15"></a>
 ## [0.1.15](https://github.com/MST-EUI/eui/compare/v0.1.14...v0.1.15) (2018-10-15)
 
