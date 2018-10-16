@@ -1,3 +1,13 @@
+<a name="0.1.17"></a>
+## [0.1.17](https://github.com/MST-EUI/eui/compare/v0.1.16...v0.1.17) (2018-10-16)
+
+
+### Features
+
+* eui-demo version update ([ed4039f](https://github.com/MST-EUI/eui/commit/ed4039f))
+
+
+
 <a name="0.1.16"></a>
 ## [0.1.16](https://github.com/MST-EUI/eui/compare/v0.1.15...v0.1.16) (2018-10-16)
 
