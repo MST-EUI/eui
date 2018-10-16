@@ -9,6 +9,7 @@ const {
   EmptyData,
   Code,
   Demo,
+  Button,
 } = eui;
 
 class DemoComponent extends React.Component {
@@ -21,6 +22,10 @@ class DemoComponent extends React.Component {
 
 <EmptyData />
 `;
+    const buttonSourceCode = `import { Button } from '@mistong/eui';
+
+<Button>按钮测试</Button>
+`;
     return (
       <Demo>
         <h2>eui 整包</h2>
@@ -31,6 +36,9 @@ class DemoComponent extends React.Component {
         </Code>
         <Code sourceCode={emptyDataSourceCode}>
           <EmptyData style={{ width: '200px' }} />
+        </Code>
+        <Code sourceCode={buttonSourceCode}>
+          <Button>按钮测试</Button>
         </Code>
         <h3>API</h3>
         <p>无</p>
