@@ -4,6 +4,7 @@ import Code from '../lib/code';
 import Demo from '../lib/demo';
 import Button from '../lib/button';
 import Dialog from '../lib/dialog';
+import Tab from '../lib/tab';
 
 import './index.scss';
 
@@ -14,5 +15,6 @@ module.exports = {
   Demo,
   Button,
   Dialog,
+  Tab,
 };
 

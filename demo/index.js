@@ -11,7 +11,13 @@ const {
   Demo,
   Button,
   Dialog,
+  Tab,
 } = eui;
+
+const {
+  Tabs,
+  TabPane,
+} = Tab;
 
 class DemoComponent extends React.Component {
   constructor(props) {
@@ -71,6 +77,18 @@ class Demo extends React.Component{
   }
 }
 `;
+    const tabSourceCode = `import { Tab } from '@mistong/eui';
+const {
+  Tabs,
+  TabPane,
+} = Tab;
+
+<Tabs defaultActiveKey="3" onChange={() => {}}>
+  <TabPane tab="选项卡一" key="1">选项卡一内容</TabPane>
+  <TabPane tab="选项卡2" key="2">选项卡二内容</TabPane>
+  <TabPane tab="选项卡3" key="3">选项卡三内容</TabPane>
+</Tabs>
+`;
     return (
       <Demo>
         <h2>eui 整包</h2>
@@ -89,6 +107,13 @@ class Demo extends React.Component{
           <Button onClick={self.dialogToggle}>点我打开 Dialog
           </Button>
           <Dialog title="提示" onCancel={self.dialogToggle} onConfirm={self.dialogToggle} visible={dialogVisible}>我是测试 dialog</Dialog>
+        </Code>
+        <Code sourceCode={tabSourceCode}>
+          <Tabs defaultActiveKey="3" onChange={() => {}}>
+            <TabPane tab="选项卡一" key="1">选项卡一内容</TabPane>
+            <TabPane tab="选项卡2" key="2">选项卡二内容</TabPane>
+            <TabPane tab="选项卡3" key="3">选项卡三内容</TabPane>
+          </Tabs>
         </Code>
         <h3>API</h3>
         <p>无</p>
