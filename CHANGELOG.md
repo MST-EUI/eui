@@ -1,3 +1,13 @@
+<a name="0.1.19"></a>
+## [0.1.19](https://github.com/MST-EUI/eui/compare/v0.1.18...v0.1.19) (2018-10-17)
+
+
+### Features
+
+* add eui-tab ([2e59db6](https://github.com/MST-EUI/eui/commit/2e59db6))
+
+
+
 <a name="0.1.18"></a>
 ## [0.1.18](https://github.com/MST-EUI/eui/compare/v0.1.17...v0.1.18) (2018-10-16)
 
