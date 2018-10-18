@@ -1,3 +1,13 @@
+<a name="0.1.23"></a>
+## [0.1.23](https://github.com/MST-EUI/eui/compare/v0.1.22...v0.1.23) (2018-10-18)
+
+
+### Features
+
+* add eui-pagination ([e7345a0](https://github.com/MST-EUI/eui/commit/e7345a0))
+
+
+
 <a name="0.1.22"></a>
 ## [0.1.22](https://github.com/MST-EUI/eui/compare/v0.1.21...v0.1.22) (2018-10-18)
 
