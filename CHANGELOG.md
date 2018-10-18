@@ -1,3 +1,13 @@
+<a name="0.1.22"></a>
+## [0.1.22](https://github.com/MST-EUI/eui/compare/v0.1.21...v0.1.22) (2018-10-18)
+
+
+### Features
+
+* add eui-popover ([9c7e001](https://github.com/MST-EUI/eui/commit/9c7e001))
+
+
+
 <a name="0.1.21"></a>
 ## [0.1.21](https://github.com/MST-EUI/eui/compare/v0.1.20...v0.1.21) (2018-10-17)
 
