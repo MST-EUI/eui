@@ -7,4 +7,5 @@ module.exports = [
   'eui-dialog',
   'eui-tab',
   'eui-popover',
+  'eui-pagination',
 ];

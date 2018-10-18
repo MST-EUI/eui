@@ -6,6 +6,7 @@ import Button from '../lib/button';
 import Dialog from '../lib/dialog';
 import Tab from '../lib/tab';
 import Popover from '../lib/popover';
+import Pagination from '../lib/pagination';
 
 import './index.scss';
 
@@ -18,5 +19,6 @@ module.exports = {
   Dialog,
   Tab,
   Popover,
+  Pagination,
 };
 
