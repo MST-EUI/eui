@@ -12,6 +12,7 @@ const {
   Button,
   Dialog,
   Tab,
+  Popover,
 } = eui;
 
 const {
@@ -89,6 +90,24 @@ const {
   <TabPane tab="选项卡3" key="3">选项卡三内容</TabPane>
 </Tabs>
 `;
+
+    const popoverSourceCode = `import { Popover, Button } from '@mistong/eui';
+
+const overlay = (
+  <div>
+  这是个自定义的tooltip overlay!
+  </div>
+);
+
+<Popover placement="right" title="右边" overlay={overlay}>
+  <Button type="primary" style={{ marginTop: 5 }}>右边</Button>
+</Popover>
+`;
+    const overlay = (
+      <div>
+      这是个自定义的tooltip overlay!
+      </div>
+    );
     return (
       <Demo>
         <h2>eui 整包</h2>
@@ -114,6 +133,11 @@ const {
             <TabPane tab="选项卡2" key="2">选项卡二内容</TabPane>
             <TabPane tab="选项卡3" key="3">选项卡三内容</TabPane>
           </Tabs>
+        </Code>
+        <Code sourceCode={popoverSourceCode}>
+          <Popover placement="right" title="右边" overlay={overlay}>
+            <Button type="primary" style={{ marginTop: 5 }}>右边</Button>
+          </Popover>
         </Code>
         <h3>API</h3>
         <p>无</p>

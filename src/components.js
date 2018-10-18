@@ -6,4 +6,5 @@ module.exports = [
   'eui-button',
   'eui-dialog',
   'eui-tab',
+  'eui-popover',
 ];
