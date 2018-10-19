@@ -1,3 +1,13 @@
+<a name="0.1.25"></a>
+## [0.1.25](https://github.com/MST-EUI/eui/compare/v0.1.24...v0.1.25) (2018-10-19)
+
+
+### Features
+
+* eui-code version update ([3061a0a](https://github.com/MST-EUI/eui/commit/3061a0a))
+
+
+
 <a name="0.1.24"></a>
 ## [0.1.24](https://github.com/MST-EUI/eui/compare/v0.1.23...v0.1.24) (2018-10-19)
 
