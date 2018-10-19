@@ -78,7 +78,7 @@
   },
   "dependencies": {
     "@mistong/eui-button": "^0.1.5",
-    "@mistong/eui-code": "^0.1.4",
+    "@mistong/eui-code": "^0.1.5",
     "@mistong/eui-css": "latest",
     "@mistong/eui-demo": "^0.1.3",
     "@mistong/eui-dialog": "^0.1.6",
