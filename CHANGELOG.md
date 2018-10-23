@@ -1,3 +1,13 @@
+<a name="0.1.26"></a>
+## [0.1.26](https://github.com/MST-EUI/eui/compare/v0.1.25...v0.1.26) (2018-10-23)
+
+
+### Features
+
+* eui-tab version update ([08a45ba](https://github.com/MST-EUI/eui/commit/08a45ba))
+
+
+
 <a name="0.1.25"></a>
 ## [0.1.25](https://github.com/MST-EUI/eui/compare/v0.1.24...v0.1.25) (2018-10-19)
 
