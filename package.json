@@ -86,7 +86,7 @@
     "@mistong/eui-icon": "^0.1.8",
     "@mistong/eui-pagination": "^0.1.3",
     "@mistong/eui-popover": "^0.1.2",
-    "@mistong/eui-tab": "^0.1.4",
+    "@mistong/eui-tab": "^0.1.5",
     "classnames": "^2.2.6"
   },
   "config": {
